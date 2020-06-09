@@ -58,16 +58,27 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-.single-experience{
-    box-shadow: 10px 10px 40px;
-    border-radius: 5px;
-    height: 70%;
-    
+
+.item-center{
+    margin-top:50px;
 }
 #experience-area{
     background-image: url(../images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 40px;
+    border-radius: 5px;
+    height: 70%;
+    background-color: white;
+    padding:10px 15px 0 30px;   
+}
+
+
+.experience{
+    margin-left: 60px;
 }
 #full-stack{
     border-left: 7px solid;
@@ -82,4 +93,8 @@ section{
 footer p{
     text-align: center;
     font-size: 13px;
+}
+
+.pera{
+    text-align: justify;
 }
